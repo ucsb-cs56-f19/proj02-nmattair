@@ -11,6 +11,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
 public class FeatureCollection {
     private static Logger logger = LoggerFactory.getLogger(FeatureCollection.class);
     
+    public Metadata metadata;
     public String type;
 
      /**
