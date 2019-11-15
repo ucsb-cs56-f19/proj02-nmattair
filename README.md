@@ -4,6 +4,7 @@ A simple Spring Boot webapp using:
 * Github OAuth
 
 Github Page: https://ucsb-cs56-f19.github.io/lab07-nmattair/
+Heroku Page: https://cs56-f19-lab07-nmattair.herokuapp.com
 
 # Running on Localhost.
 
