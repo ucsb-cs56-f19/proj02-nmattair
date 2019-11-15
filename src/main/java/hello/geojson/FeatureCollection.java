@@ -7,12 +7,15 @@ import org.slf4j.LoggerFactory;
 import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.core.JsonProcessingException;
+import java.util.List;
 
 public class FeatureCollection {
     private static Logger logger = LoggerFactory.getLogger(FeatureCollection.class);
     
     public Metadata metadata;
     public String type;
+    public List<Feature> features;
+
 
      /**
      * Create a FeatureCollection object from json representation
