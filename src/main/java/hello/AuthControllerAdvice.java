@@ -26,22 +26,17 @@ public class AuthControllerAdvice {
     @ModelAttribute("id")
     public String getUid(OAuth2AuthenticationToken token){
         if (token == null) return "";
-        System.out.println("1");
+        
         String uid = token.getPrincipal().getAttributes().get("id").toString();
-        // System.out.println("2");
-        // List<AppUser> users = userRepository.findByUid(uid);
-        // System.out.println("3");
-        // if (users.size()==0) {
-        //     System.out.println("4");
-        //     AppUser u = new AppUser();
-        //     System.out.println("5");
-        //     u.setUid(uid);
-        //     System.out.println("6");
-        //     u.setLogin(token2login(token));
-        //     System.out.println("7");
-        //     userRepository.save(u);
-        //     System.out.println("8");
-        // }
+
+        List<AppUser> users = userRepository.findByUid(uid);
+
+        if (users.size()==0) {
+            AppUser u = new AppUser();
+            u.setUid(uid);
+            u.setLogin(token2login(token));
+            userRepository.save(u);
+        }
 
         return uid;
     }
