@@ -7,7 +7,6 @@ import org.springframework.security.oauth2.core.user.OAuth2User;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import java.util.List;
 import hello.entities.*;
-import hello.controllers.*;
 import hello.repositories.*;
 
 @ControllerAdvice
