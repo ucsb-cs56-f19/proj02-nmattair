@@ -3,9 +3,9 @@ A simple Spring Boot webapp using:
 * Pulling in Bootstrap from CDN.
 * Github OAuth
 
-Github Page: https://ucsb-cs56-f19.github.io/lab07-nmattair/
-Heroku Page: https://cs56-f19-lab07-nmattair.herokuapp.com
-Travis-CI Page: https://travis-ci.org/ucsb-cs56-f19/lab07-nmattair/builds/615363227?utm_source=github_status&utm_medium=notification
+Github Page: https://ucsb-cs56-f19.github.io/proj01-nmattair/
+Heroku Page: https://cs56-f19-proj01-nmattair.herokuapp.com/
+Travis-CI Page: https://travis-ci.org/ucsb-cs56-f19/proj01-nmattair/builds/616990854?utm_source=github_status&utm_medium=notification
 
 
 # Running on Localhost.
