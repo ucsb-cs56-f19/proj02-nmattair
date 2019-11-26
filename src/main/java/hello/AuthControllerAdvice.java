@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.ControllerAdvice;
 import java.util.List;
 import hello.entities.*;
 import hello.repositories.*;
+import hello.services.*;
 
 @ControllerAdvice
 public class AuthControllerAdvice {

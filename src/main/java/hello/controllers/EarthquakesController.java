@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import java.util.Map;
 import java.util.HashMap;
 import hello.geojson.FeatureCollection;
-import hello.EarthquakeQueryService;
+import hello.services.*;
 import hello.EqSearch;
 
 
