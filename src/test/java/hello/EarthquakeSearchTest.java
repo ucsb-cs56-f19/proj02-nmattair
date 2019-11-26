@@ -21,10 +21,11 @@ import org.springframework.security.oauth2.core.user.OAuth2User;
 import org.junit.Before;
 
 import static org.springframework.security.test.web.servlet.request.SecurityMockMvcRequestPostProcessors.authentication;
+import hello.controllers.*;
 
 
 @RunWith(SpringRunner.class)
-@WebMvcTest(WebController.class)
+@WebMvcTest(EarthquakesController.class)
 public class EarthquakeSearchTest {
 
     @Autowired
